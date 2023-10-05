@@ -5,7 +5,7 @@ Mixed lists
 from typing import Union, List
 
 
-def sum_mixed_list(mxd_1st: List[Union[int, float]]) -> float
+def sum_mixed_list(mxd_1st: List[Union[int, float]]) -> float:
 """
 Args:
     mxd_1st: float-int numbers
