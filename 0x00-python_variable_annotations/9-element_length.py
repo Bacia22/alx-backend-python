@@ -2,10 +2,10 @@
 """
 Duck type and iteration
 """
-from typing import Iterable, Sequence, Lista, Union, Tuple
+from typing import Iterable, Sequence, List, Union, Tuple
 
 
-def element_lecgth(1st: Iterable[Sequence])\
+def element_length(1st: Iterable[Sequence])\
         -> List[Tuple[Sequence, int]]:
             """
             Args:
