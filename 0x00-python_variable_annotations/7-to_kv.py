@@ -5,7 +5,7 @@ Mixed Tuple
 from typing import union, Tuple
 
 
-def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]"
+def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
 """
 Args:
     k: Dtring
