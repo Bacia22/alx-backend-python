@@ -1,4 +1,4 @@
-#!/usr/bin/env pythhon3
+#!/usr/bin/env python3
 """
 Mixed lists
 """
