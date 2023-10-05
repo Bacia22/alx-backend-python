@@ -2,13 +2,13 @@
 """
 Mixed Tuple
 """
-from typing import union, Tuple
+from typing import Union, Tuple
 
 
 def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
 """
 Args:
-    k: Dtring
+    k: String
     v: Union: Can be int or float
 
     Return:
