@@ -5,7 +5,7 @@ import random
 from typing import Generator
 
 
-async def async_generator() -. Generator[float, None, None]:
+async def async_generator() -> Generator[float, None, None]:
     """
     Generator numbers
 
@@ -15,6 +15,6 @@ async def async_generator() -. Generator[float, None, None]:
     Return:
     float time random
     """
-    for _ in rage(10):
+    for _ in range(10):
         await asyncio.sleep(1)
         yield random.uniform(0, 10)
