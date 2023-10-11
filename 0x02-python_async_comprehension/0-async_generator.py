@@ -7,7 +7,7 @@ from typing import Generator
 
 async def async_generator() -> Generator[float, None, None]:
     """
-    Generator numbers
+    Generate numbers
 
     Args:
     void
